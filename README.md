@@ -3,7 +3,7 @@ sinan
 
 Sinan是什么？
 ------
-Sinan是Oracle大数据批量调整工具，主要用于行政区划代码调整，包括但不局限于行政区划、乡镇街道、公安派出所、社区村（居）委会，以及性别、民族、文化程度等代码。
+Sinan是用Groovy语言开发的Oracle大数据批量调整客户端工具，主要用于行政区划代码调整，包括但不局限于行政区划、乡镇街道、公安派出所、社区村（居）委会，以及性别、民族、文化程度等代码。
 为什么要用Sinan？
 ------
 其实用一条简单的数据库Update语句或者是写一个存储过程（Procedure），也可以完成数据调整工作；但是用Sinan更加简单、通用一些，适合以下情形：<br/>
@@ -15,6 +15,6 @@ Sinan是Oracle大数据批量调整工具，主要用于行政区划代码调整
 TODO
 相关项目
 ------
-Yelang:  标准代码管理系统<br/>
-Wujiang: Oracle数据迁移校对工具<br/>
-Sinan:   Oracle大数据批量调整工具<br/>
+Yelang:  标准代码管理系统（基于SpringMVC和Groovy的Web系统）<br/>
+Wujiang: Oracle数据迁移校对工具（Groovy客户端）<br/>
+Sinan:   Oracle大数据批量调整工具（Groovy客户端）<br/>
