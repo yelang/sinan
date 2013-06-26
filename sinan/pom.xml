@@ -3,13 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>sinan</artifactId>
+        <artifactId>sinanparent</artifactId>
         <groupId>net.xinjumin.sinan</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>bdc</artifactId>
+    <artifactId>sinan</artifactId>
     <dependencies>
         <dependency>
             <groupId>org.codehaus.groovy</groupId>
@@ -48,7 +48,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>net.xinjumin.sinan.Bdc</mainClass>
+                            <mainClass>net.xinjumin.sinan.Sinan</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
